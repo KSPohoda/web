@@ -1,0 +1,63 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body {	
+	background: #000000 url(images/back_all.gif) repeat-x top;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #383838;
+	margin: 0px;
+    padding: 0px;
+}
+
+.m1{
+font-family:tahoma;
+font-size:11;
+color:#8A8A8A;
+font-weight:900;
+}
+a{
+font-family:tahoma;
+font-size:11px;
+color:#ffffff;
+text-decoration:none;
+font-weight:900;
+}
+a:hover{text-decoration:underline}
+a.m1{
+font-family:tahoma;
+font-size:11;
+color:#3F2415;
+font-weight:300
+}
+a.m1:hover{text-decoration:underline}
+a.m2{
+font-family:tahoma;
+font-size:11;
+color:#D52C00;
+font-weight:900;
+}
+a.m2:hover{text-decoration:underline}
+#cent
+{
+margin: 0px auto;
+width: 778px;
+}
+
+#footer
+{
+width: 100%;
+text-align: center;
+height: 78px;
+background: url(images/footer.gif) repeat-x;
+padding-top: 30px;
+color: #ffffff;
+}

@@ -1,0 +1,82 @@
+body{background-image:url(../img/podklad.png)}
+
+.header{background-color:#52656B;}
+
+h2{color:white;
+padding-left:0px;
+font-size:40px;
+font-family: 'Poiret One', cursive;}
+
+.kdo{padding-top:15px;
+padding-left:25px;
+text-align:justify}
+
+.prihl{margin-top:20px;
+text-align:center}
+
+.imgs{}
+
+.blockquote{border: 3px solid white;
+Border-style:dashed;
+padding-bottom:21px;}
+
+p{color:#FFFFFF;
+text-align:justify;
+font-family: 'Poiret One', cursive;
+font-size:15px;}
+
+p1{color:#FFFFFF;
+text-align:justify;
+font-family: 'Poiret One', cursive;
+font-size:14px;}
+
+.neco{font-size:25px}
+
+h3{color:white;
+font-family: 'Poiret One', cursive;}
+
+a{text-decoration:none;
+color:#ffffff;
+font-size:20px;
+font-family: 'Poiret One', cursive;}
+
+img{margin-top:px}
+
+.imgs{margin-left:780px;
+margin-top:-10px}
+
+.right{position:absolute;
+    margin-left: 316px;
+margin-top:-15px;}
+
+.right1{position:absolute;
+    margin-left: 316px;
+margin-top:-15px;}
+
+.right2{position:absolute;
+    margin-left: 316px;
+margin-top:-15px;}
+
+.right3{position:absolute;
+    margin-left: 315px;
+margin-top:-15px;}
+
+.right4{position:absolute;
+    margin-left: 316px;
+margin-top:-15px;}
+
+.right5{position:absolute;
+    margin-left: 316px;
+    margin-top:-15px;}
+
+.right6{position:absolute;
+    margin-left: 316px;
+    margin-top:-15px;}
+
+.right7{position:absolute;
+    margin-left: 316px;
+    margin-top:-15px;}
+
+.right8{position:absolute;
+    margin-left: 316px;
+    margin-top:-15px;}
