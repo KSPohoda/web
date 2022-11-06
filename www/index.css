@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Open+Sans&subset=latin-ext&display=swap");
+
+html {
+  --red: #662134;
+  --white: #fff;
+}
+
+body {
+  background: url("./img/bg-green-cmp.png");
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Caveat Brush", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.about {
+  background-color: var(--red);
+  padding: 2em 1em;
+  border-top: thick var(--white) dashed;
+  border-bottom: thick var(--white) dashed;
+}
+.about img {
+  display: none;
+}
+@media (min-width: 960px) {
+  .about article {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2em;
+  }
+  .about img {
+    display: block;
+    width: 12em;
+  }
+}
+
+section {
+  padding: 0 1em;
+}
+section > article {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  fill: var(--white);
+}
+
+.history article > h3 {
+  background: var(--red);
+  border-left: thick var(--white) dashed;
+}
+
+img {
+  max-width: 30em;
+  object-fit: contain;
+}

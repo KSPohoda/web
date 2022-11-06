@@ -3,20 +3,147 @@
   <head>
     <meta charset="utf-8" />
     <title>Pohoda</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="./hot.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
-
-    <script type="text/javascript">
-      let src = new EventSource("sse");
-
-      src.onmessage = () => {
-        window.location.reload();
-      };
-
-      src.onerror = () => {
-        console.debug("[HOTRELOAD] error: server connection lost");
-      };
-    </script>
+    <section class="centered">
+      <h1>Vítejte na stránkách Křesťanského sdružení POHODA</h1>
+    </section>
+    <section class="about" id="o-nas">
+      <article>
+        <div>
+          <h2>Kdo jsme?</h2>
+          <p>
+            Křesťanské sdružení POHODA sdružuje výchovné pracovníky pracující s
+            dětmi. Pracovníci zpravidla pracují s dětmi ve skupinách při sborech
+            křesťanských církví. Vychovávají děti a dorost na podkladě
+            křesťanských etických zásad. Jejich základním východiskem je víra v
+            Ježíše Krista, vyjádřená zejména obecným křesťanským vyznáním víry.
+            Činnost zahrnuje adekvátním podílem biblické vzdělávání, mravní a
+            společenskou výchovu, poznávání a ochranu přírody, táboření, sport a
+            další aktivity s cílem obsáhnout komplexní výchovu osobnosti. Při
+            pořádání dětských letních táborů spolupracujeme od roku 2006 se
+            skupinou amerických křesťanů, kteří učí děti zábavnou formou
+            angličtinu.
+          </p>
+          <p>
+            Podívejte se, kde všude jsme již byli a kam se chystáme příští léto:
+          </p>
+        </div>
+        <img
+          class="logo"
+          src="./img/logo.svg"
+          alt="Logo Křesťanského sdružení Pohoda: člověk ležící na louce pod sluncem se stromy v pozadí"
+        />
+      </article>
+    </section>
+    <section id="prihlaska" class="centered">
+      <h2>Tábor NUZICE 2022 plánujeme od 30. 7. do 6. 8.</h2>
+    </section>
+    <section id="historie">
+      <article>
+        <h3>Nuzice 2021</h3>
+        <p>
+          Tábora 2021 se zúčastnilo 43 dětí. Námětem tohoto tábora byl biblický
+          příběh o Jozuovi. Stali jsme se starozákonními Izraelity a zakusili
+          jsme dobrodružné putování do země zaslíbené. Díky Bohu jsme prožili
+          týden plný her, zpívání, vyprávění příběhů z Bible, sportu a pohody.
+        </p>
+        <img src="./img/Nuzice21.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2020</h3>
+        <p>
+          Na tábor Nuzice 2020 přijelo 47 dětí. Jako Moravští bratři jsme se
+          uchýlili do Ochranova k hraběti Zinzendorfovi a tam budovali nový
+          domov, tiskli knihy a vyjížděli na misie. Měli jsme se díky Bohu moc
+          dobře a koronavirová opatření se nás dotkla jen trochu.
+        </p>
+        <img src="./img/Nuzice20.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2019</h3>
+        <p>
+          Tábora 2019 se zúčastnilo 51 dětí. Letos se celotáborová hra točila
+          kolem byznysu a tak jsme za body získané při hrách nakupovali
+          komodity. Hráli jsme spoustu her, zpívali a také jsme se učili z
+          Bible. Celodenní výlet nás tentokrát zavedl do jaderné elektrárny
+          Temelín.
+        </p>
+        <img src="./img/Nuzice19.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2018</h3>
+        <p>
+          Tábora 2018 se zúčastnilo 48 dětí. Na týden jsme se přenesli do
+          husitské doby a stali se z nás stateční husité. Tomu také odpovídal
+          celodenní výlet do města Tábor. Každý bojovník potřebuje vyzbrojit,
+          proto jsme se z Bible učili o Boží zbroji.
+        </p>
+        <img src="./img/Nuzice18.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2017</h3>
+        <p>
+          Tábora 2017 se zúčastnilo 50 dětí. V celotáborové hře jsme pokračovali
+          v putování s Mojšíšem a Izraelci po poušti. Odpovídalo tomu i horké
+          počasí, ale vedra se v přírodě u řeky dala snést. Děkujeme Bohu za
+          krásný týden, který jsme si mohli společně užít.
+        </p>
+        <img src="./img/Nuzice.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2016</h3>
+        <p>
+          Letošního tábora se zúčastnilo 51 dětí. Námětem se stal příběh Mojšíše
+          od jeho narození až po vyjití izraelského národa z Egypta. Díky Bohu
+          za krásný týden!
+        </p>
+        <img src="./img/Nuzice.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2015</h3>
+        <p>
+          Tábor 2015 se konal od 25.7 do 1.8. opět v kempu POHODA v chatkách na
+          břehu Lužnice. Přijelo 51 dětí a tábor byl úplně zaplněný už od konce
+          zimy. Tento týden jsme spolu s Nehemijášem budovali hradby města
+          Jeruzaléma.
+        </p>
+        <img src="./img/Nuzice.jpeg" />
+      </article>
+      <article>
+        <h3>Nuzice 2014</h3>
+        <p>
+          Tento tábor se konal od 2. do 9. srpna v kempu Pohoda na břehu Lužnice
+          nedaleko vesničky Nuzice. Přijelo 47 dětí. Tématem tábora byl příběh
+          Josefa. Prožili jsme týden plný her, koupání, zpívání s Michaelem a
+          vyprávění krásného biblického příběhu.
+        </p>
+        <img src="./img/Nuzice.jpeg" />
+      </article>
+      <article>
+        <h3>Čichořice 2013</h3>
+        <p>
+          Tábor 2013 se konal od 10. do 17. srpna v Čichořicích. Přijelo
+          rekordních 56 dětí. Prožili jsme indiánský týden plný her, zpívání,
+          kamarádství a hlavně Božího požehnání. Podívejte se na spoustu
+          fotografií.
+        </p>
+        <img src="./img/Cichorice.jpeg" />
+      </article>
+      <article>
+        <h3>Čichořice 2012</h3>
+        <p>
+          Poslední srpnový týden roku 2012 jsme se společně vydali do Persie -
+          říše krále Achašvera. 49 dětí bylo rozděleno do pěti skvělých týmů,
+          které sloužily mocnému králi. Byli jsme u toho, když král vyhnal Vašti
+          a vybral si novou královnu Ester. Krok za krokem jsme procházeli
+          napínavým příběhem až k jeho konci, kdy odvážná královna zachránila
+          svůj národ.
+        </p>
+        <img src="./img/Cichorice.jpeg" />
+      </article>
+    </section>
   </body>
 </html>
