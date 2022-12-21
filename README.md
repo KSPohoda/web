@@ -37,7 +37,8 @@ V takových to blocích jsou příkazy, které je třeba spustit v příkazovém
   ```sh
   npm install -g netlify-cli
   ```
-  Přihlásíme se (mělo by otevřít přihlašovací stránku v prohlížeči)
+  Přihlásíme se KSPohoda učtem (mail: `quick.lion8956@fastmail.com`)  
+  Měla by se otevřít přihlašovací stránka v prohlížeči
   ```sh
   netlify login
   ```
