@@ -85,3 +85,5 @@ V takových to blocích jsou příkazy, které je třeba spustit v příkazovém
 [git-docs]: https://git-scm.com/doc
 [git-lfs]: https://git-lfs.github.com/
 [node]: https://nodejs.org/en/download/
+
+Commit test
