@@ -4,13 +4,13 @@
 
 **Notace:**
 
-```sh
-V takových to blocích jsou příkazy, které je třeba spustit v příkazovém řádku
+```
+V takovýchto blocích jsou příkazy, které je třeba spustit v příkazovém řádku
 ```
 
 **Co je potřeba:**
 
-- `git` [→ stáhnout][git]  
+- `git` [→ stáhnout][git]
   Po instalaci je třeba se `git`u identifikovat:
 
   ```sh
@@ -22,29 +22,11 @@ V takových to blocích jsou příkazy, které je třeba spustit v příkazovém
   ```
 
 - `git-lfs` [→ stáhnout][git-lfs]  
-  Jde o rozšíření pro `git`, které umožňuje verzování i tak velkých souborů, jako jsou obrázky.  
+  Jde o rozšíření pro `git`, které umožňuje verzování i tak velkých souborů, jako jsou obrázky.
   Po instalaci je třeba spustit:
 
   ```sh
   git lfs install
-  ```
-
-- `node` [→ stáhnout][node]  
-  (Potřeba pro `netlify-cli`)
-
-- `netlify-cli`
-  Nainstalujeme přes `npm` (Node Package Manager)
-  ```sh
-  npm install -g netlify-cli
-  ```
-  Přihlásíme se KSPohoda učtem (mail: `quick.lion8956@fastmail.com`)  
-  Měla by se otevřít přihlašovací stránka v prohlížeči
-  ```sh
-  netlify login
-  ```
-  Nastavíme `git` aby použil `netlify` pro autentikaci
-  ```sh
-  git config --global --add credential.helper netlify
   ```
 
 **Jak na to:**
