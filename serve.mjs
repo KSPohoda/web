@@ -1031,7 +1031,7 @@ async function watch(dir, cb) {
 function run(args) {
   opts = args;
   log = initLog({
-    level: opts.verbose ? LogLevelEnum.Debug : LogLevelEnum.Warn,
+    level: opts.verbose ? LogLevelEnum.Debug : LogLevelEnum.Info,
   });
   log.debug(opts);
   log.debug(__dirname);

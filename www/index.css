@@ -561,7 +561,12 @@
     font-size: 16px;
     font-family: var(--font-sans);
     color: var(--color-white);
-    background: url("/img/bg-green.png");
+    background: linear-gradient(to bottom, #7f8d3d, var(--color-accent-50));
+    background-attachment: fixed;
+  }
+  body {
+    background-image: url("/img/bg-green.png");
+    /* background-attachment: fixed; */
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
